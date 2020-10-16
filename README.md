@@ -10,7 +10,7 @@ Deve-se desenvolver dois scripts:
 
 #####JSON
 
-```
+```JSON
 	{
 	"order": [
 		{
@@ -41,7 +41,7 @@ Deve-se desenvolver dois scripts:
 
 #####CSV Gerado
 
-ID  | Name | Description | Quantity | Value | Total
+ID  | Name | Description | Quantity | Value | Total |
 ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 1  | Boné | Boné Branco | 2 | 25.2 | 50.4
 2  | Camiseta | Camiseta 100% Algodão | 3 | 18.5 | 55.5
@@ -67,7 +67,7 @@ ID  | Name | Description | Quantity | Value
 
 #####JSON Gerado
 
-```
+```JSON
 	{
 	"order": [
 		{
