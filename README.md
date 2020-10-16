@@ -8,7 +8,7 @@ Deve-se desenvolver dois scripts:
 
 ####1) Script capaz de realizar a conversão de um arquivo JSON para um arquivo CSV, seguindo o exemplo a seguir:
 
-#####JSON
+JSON
 
 ```JSON
 	{
@@ -35,11 +35,11 @@ Deve-se desenvolver dois scripts:
 			"value": 29.90
 		}
 	]
-}
+}```
 
 > Este arquivo pode ser encontrado no diretório ./json/exemplo/shopping.json
 
-#####CSV Gerado
+CSV Gerado
 
 | ID  | Name | Description | Quantity | Value | Total |
 | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
