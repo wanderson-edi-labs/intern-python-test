@@ -41,16 +41,18 @@ Deve-se desenvolver dois scripts:
 
 #####CSV Gerado
 
-ID  | Name | Description | Quantity | Value | Total |
-------------- | ------------- | ------------- | ------------- | ------------- | -------------
-1  | Boné | Boné Branco | 2 | 25.2 | 50.4
-2  | Camiseta | Camiseta 100% Algodão | 3 | 18.5 | 55.5
-3  | Calça | Calça Jeans | 1 | 29.9 | 29.9
-Total  |  |  |  |  | 135.8
+| ID  | Name | Description | Quantity | Value | Total |
+| ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
+| 1  | Boné | Boné Branco | 2 | 25.2 | 50.4 |
+| 2  | Camiseta | Camiseta 100% Algodão | 3 | 18.5 | 55.5 |
+| 3  | Calça | Calça Jeans | 1 | 29.9 | 29.9 |
+| Total  |  |  |  |  | 135.8 |
 
 ####Requisitos
 
 - [ ] O arquivo CSV deve ser criado com o separador Pipe (**|**)
+- [ ] A coluna **Total** deve conter o valor total de cada produto levando em conta as suas quantidades.
+- [ ] A linha **Total** deve conter o valor total do pedido.
 
 # 
 
