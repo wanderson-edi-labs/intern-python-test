@@ -35,7 +35,7 @@ Deve-se desenvolver dois scripts:
 			"value": 29.90
 		}
 	]
-}```
+}
 
 > Este arquivo pode ser encontrado no diretório ./json/exemplo/shopping.json
 
