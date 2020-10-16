@@ -6,12 +6,10 @@ O teste deve ser realizado na linguagem de programação Python.
 
 Deve-se desenvolver dois scripts:
 
-####1) Script capaz de realizar a conversão de um arquivo JSON para um arquivo CSV, seguindo o exemplo a seguir:
-
-JSON
+### 1) Script capaz de realizar a conversão de um arquivo JSON para um arquivo CSV, seguindo o exemplo a seguir:
 
 ```JSON
-	{
+{
 	"order": [
 		{
 			"id": 1,
@@ -35,11 +33,12 @@ JSON
 			"value": 29.90
 		}
 	]
-}```
+}
+```
 
 > Este arquivo pode ser encontrado no diretório ./json/exemplo/shopping.json
 
-CSV Gerado
+#### CSV Gerado
 
 | ID  | Name | Description | Quantity | Value | Total |
 | ------------- | ------------- | ------------- | ------------- | ------------- | -------------|
@@ -48,7 +47,7 @@ CSV Gerado
 | 3  | Calça | Calça Jeans | 1 | 29.9 | 29.9 |
 | Total  |  |  |  |  | 135.8 |
 
-####Requisitos
+#### Requisitos
 
 - [ ] O arquivo CSV deve ser criado com o separador Pipe (**|**)
 - [ ] A coluna **Total** deve conter o valor total de cada produto levando em conta as suas quantidades.
@@ -56,9 +55,9 @@ CSV Gerado
 
 # 
 
-####2) Script capaz de realizar a conversão de um arquivo CSV para um arquivo JSON, seguindo o exemplo a seguir:
+### 2) Script capaz de realizar a conversão de um arquivo CSV para um arquivo JSON, seguindo o exemplo a seguir:
 
-#####CSV
+#### CSV
 
 ID  | Name | Description | Quantity | Value
 ------------- | ------------- | ------------- | ------------- | -------------
@@ -67,7 +66,7 @@ ID  | Name | Description | Quantity | Value
 3  | Calça | Calça Jeans | 1 | 29.9 
 > Este arquivo pode ser encontrado no diretório ./csv/exemplo/shopping.csv
 
-#####JSON Gerado
+#### JSON Gerado
 
 ```JSON
 	{
@@ -95,11 +94,12 @@ ID  | Name | Description | Quantity | Value
 		},
 		"total": 135.8
 	]
-}```
+}
+```
 
-####Requisitos
+#### Requisitos
 
-- [ ] A propriedade **total** no JSON gerado deve conter o valor total do pedido.
+- [ ] A propriedade "total" no JSON gerado deve conter o valor total do pedido.
 
 # 
 
