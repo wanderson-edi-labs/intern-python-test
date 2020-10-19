@@ -91,9 +91,9 @@ ID  | Name | Description | Quantity | Value
 			"description": "Calça Jeans",
 			"quantity": 1,
 			"value": 29.90
-		},
-		"total": 135.8
-	]
+		}
+	],
+	"total": 135.8
 }
 ```
 
