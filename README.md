@@ -109,6 +109,6 @@ Fique a vontade para clonar este repositório.
 
 > Os arquivos devem ser gerados no diretório **./gerados/**
 
-Quando terminar o desenvolvimento, envie o link do seu repositório para o e-mail ***cintia.andrade@edi-labs.com***.
+Quando terminar o desenvolvimento, envie o link do seu repositório para o e-mail ***leandro@edi-labs.com*** com cópia para ***wanderson.martins@edi-labs.com***.
 
 # 
